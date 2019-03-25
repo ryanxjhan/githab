@@ -50,6 +50,7 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 12px;
+  padding-bottom: 2.5rem;
 }
 
 .graph {
@@ -102,4 +103,11 @@ body {
 
 button {
   margin-left: 7px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
