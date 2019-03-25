@@ -14,6 +14,21 @@
                        "days squares";
   grid-template-columns: auto 1fr;
   grid-gap: 10px;
+  background-color: #A7A2A9;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 12px;
+  padding-bottom: 2.5rem;
+  background: #60656f;
+}
+
+.graph {
+  padding: 20px;
+  border: 1px black;
+  border-radius: 15px;
+  margin: 20px;
 }
 
 .months {
@@ -45,19 +60,7 @@
 }
 
 
-/* Other styling */
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 12px;
-  padding-bottom: 2.5rem;
-}
-
-.graph {
-  padding: 20px;
-  border: 1px #e1e4e8 solid;
-  margin: 20px;
-}
 
 .days li:nth-child(odd) {
   visibility: hidden;
