@@ -61,9 +61,6 @@ body {
   grid-auto-columns: var(--square-size);
 }
 
-
-
-
 .days li:nth-child(odd) {
   visibility: hidden;
 }
